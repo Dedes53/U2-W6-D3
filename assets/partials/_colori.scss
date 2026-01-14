@@ -1,0 +1,26 @@
+// $gray : #f4f4f4;
+// $blue:#0e6cff;
+// $orange:#ff8700;
+// $purple:#640fc5;
+// $green:#4caf50;
+
+$colors: (
+    "gray": #f4f4f4,
+    "blue": #0e6cff,
+    "orange": #ff8700,
+    "purple":#640fc5,
+    "green":#4caf50
+);
+// testi
+@each $color, $value in $colors{
+    .txt_#{$color}{
+        color: #{$value};
+    } 
+}
+
+// background
+@each $key, $val in $colors{
+    .gb_#{$key}{
+        background-color: #{$val};
+    }
+} 
