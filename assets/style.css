@@ -133,8 +133,6 @@ table {
   border-spacing: 0;
 }
 
-
-
 /* COLORI */
 .txt_gray {
   color: #f4f4f4;
@@ -174,6 +172,26 @@ table {
 
 .gb_green {
   background-color: #4caf50;
+}
+
+.border_gray {
+  border: 2px solid #f4f4f4;
+}
+
+.border_blue {
+  border: 2px solid #0e6cff;
+}
+
+.border_orange {
+  border: 2px solid #ff8700;
+}
+
+.border_purple {
+  border: 2px solid #640fc5;
+}
+
+.border_green {
+  border: 2px solid #4caf50;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,9 +1,4 @@
-// $gray : #f4f4f4;
-// $blue:#0e6cff;
-// $orange:#ff8700;
-// $purple:#640fc5;
-// $green:#4caf50;
-
+// array colori
 $colors: (
     "gray": #f4f4f4,
     "blue": #0e6cff,
@@ -11,6 +6,7 @@ $colors: (
     "purple":#640fc5,
     "green":#4caf50
 );
+
 // testi
 @each $color, $value in $colors{
     .txt_#{$color}{
@@ -24,3 +20,10 @@ $colors: (
         background-color: #{$val};
     }
 } 
+
+// bordi
+@each $k, $v in $colors{
+    .border_#{$k}{
+        border: 2px solid #{$v};
+    }
+}
